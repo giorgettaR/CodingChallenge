@@ -1,0 +1,60 @@
+/* Background e impostazioni varie */
+body{
+    background-image: url('immagini/background.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Verdana,sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+/* Riquadro Nero */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: hsla(0, 0%, 0%, 0.55);
+    border-radius: 15px;
+    padding: 50px;
+}
+
+/* Formattazione Logo, titolo e menù con buttons */
+.logo {
+    max-width: 250px;
+}
+header, nav{
+    text-align: center;
+    color: #39E600;
+}
+nav{
+    background-color: #39E600;
+    border: 10px solid #39E600;
+}
+
+/* Formattzione sezione Monopattini */
+.opzioni{
+    padding: 10px;
+    width: 50%;
+}
+.mezzo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Barre carica batteria monopattini */
+
+.barra{
+    height: 20px;
+    border-radius: 5px;
+}
+.piena{
+    width: 100%;
+    background-color: #39E600;
+}
+.metà {
+    width: 50%;
+    background-color: orange;
+}
+.quasiscarica {
+    width: 25%;
+    background-color: red;
+}
